@@ -97,13 +97,13 @@ colorscheme lucius
 " fix vimrc
 cabbr vimrc e ~/.vim/.vimrc<cr>
 augroup RubyTests
-    au!
-    autocmd BufRead,BufNewFile *.rb,*.rb
-    \ :compiler ruby
-    autocmd BufRead,BufNewFile *_test.rb,test_*.rb
-    \ :compiler rubyunit
-    autocmd BufRead,BufNewFile *.rb,*.rb
-    \ :map <buffer> <F5> :make %<cr>
+  au!
+  autocmd BufRead,BufNewFile *.rb,*.rb
+        \ :compiler ruby
+  autocmd BufRead,BufNewFile *_test.rb,test_*.rb
+        \ :compiler rubyunit
+  autocmd BufRead,BufNewFile *.rb,*.rb
+        \ :map <buffer> <F5> :make %<cr>
 augroup END
 map <F10> :cal VimCommanderToggle()<cr>
 
@@ -187,3 +187,7 @@ nmap gS :S<cr>
 noremap <c-F12> :cal VimCommanderToggle()<CR>
 map <C-F10> :set paste<CR>
 map <C-F11> :set nopaste<CR>
+map <Leader>\ <Plug>RubyTestRun
+map <Leader>] <Plug>RubyFileRun
+map <C-D> :!git diff %<CR>
+map <S-F5> :!cucumber %<CR>

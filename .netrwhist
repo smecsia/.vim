@@ -1,8 +1,8 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/smecsia/projects/waveaccess/ruby/cassiopeia/vendor/plugins'
-let g:netrw_dirhist_2='/home/smecsia/projects/waveaccess/ruby/cassiopeia/vendor/plugins/cassiopeia'
-let g:netrw_dirhist_3='/home/smecsia/projects/waveaccess/ruby/cassiopeia/vendor/plugins/cassiopeia/cassiopeia'
-let g:netrw_dirhist_4='/home/smecsia/projects/waveaccess/ruby/cassiopeia/vendor/plugins/cassiopeia/cassiopeia/lib'
-let g:netrw_dirhist_5='/home/smecsia/projects/waveaccess/ruby/cassiopeia/vendor/plugins/cassiopeia/cassiopeia/lib/cassiopeia'
-let g:netrw_dirhist_6='/usr/lib/ruby/gems/1.8/gems'
+let g:netrw_dirhist_1='/home/smecsia/projects/waveaccess/ruby/webmedapp/test'
+let g:netrw_dirhist_2='/home/smecsia/projects/waveaccess/ruby/webmedapp/test/registration'
+let g:netrw_dirhist_3='/home/smecsia/projects/waveaccess/ruby/webmedapp/db/migrate'
+let g:netrw_dirhist_4='/home/smecsia/projects/waveaccess/ruby/webmedapp/public/ria/src/app/views'
+let g:netrw_dirhist_5='db/migrate'
+let g:netrw_dirhist_6='/home/smecsia/projects/waveaccess/ruby/webmedapp/db/migrate'
