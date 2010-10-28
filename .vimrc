@@ -84,6 +84,7 @@ map <s-space> \be
 nmap \fo :!firefox -new-tab % &<cr> 
 " Поиск и замена слова под курсором
 nmap ; :%s/\<<c-r>=expand("<cword>")<cr>\>/
+nmap ,; :%s/<c-r>=expand("<cword>")<cr>/<c-r>=expand("<cword>")<cr>/g
 " nmap <c-m> :MarksBrowser<cr>
 nmap ' `
 "fs brousing navigation  
@@ -153,7 +154,7 @@ nmap q :q<CR>
 nmap <F4>        :call g:RubyDebugger.toggle_breakpoint()<CR>
 "nmap <>        :call g:RubyDebugger.open_variables()<CR>
 nmap <c-B>       :call g:RubyDebugger.open_breakpoints()<CR>
-"nmap <F7>        :call g:RubyDebugger.open_frames()<CR>
+nmap <c-T>        :call g:RubyDebugger.open_frames()<CR>
 nmap <F5>        :call g:RubyDebugger.step()<CR>
 nmap <F8>        :call g:RubyDebugger.finish()<CR>
 nmap <F6>        :call g:RubyDebugger.next()<CR>
@@ -190,4 +191,4 @@ map <C-F11> :set nopaste<CR>
 map <Leader>\ <Plug>RubyTestRun
 map <Leader>] <Plug>RubyFileRun
 map <C-D> :!git diff %<CR>
-map <S-F5> :!cucumber %<CR>
+map <A-F5> :!spec %<CR>
